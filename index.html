@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Página de Login</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main>
+    <h1>Login</h1>
+    <p class="descricao">Por favor, insira sua senha.</p>
+
+    <div class="campo email">
+      <label for="email">Digite seu email</label>
+      <input type="email" id="email" name="email" placeholder="seuemail@exemplo.com" />
+    </div>
+    
+<div class="campo senha">
+  <label for="senha">Senha</label>
+  <div class="senha-wrapper">
+    <input type="password" id="senha" name="senha" placeholder="Sua senha" />
+    <span id="toggleSenha" class="toggle-senha" aria-label="Mostrar senha" role="button" tabindex="0">&#128065;</span>
+  </div>
+</div>
+
+    <div class="acoes">
+      <div id="lembreme">
+        <input type="checkbox" id="checkbox-lembreme" />
+        <label for="checkbox-lembreme">Lembre-me</label>
+      </div>
+      <div id="ops">
+        <a href="#">Esqueceu a senha?</a>
+      </div>
+    </div>
+  </main>
+</body>
+</html>
